@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_details",
+  "info": {
+    "singularName": "user-detail",
+    "pluralName": "user-details",
+    "displayName": "userDetail"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Number": {
+      "type": "biginteger",
+      "required": true
+    },
+    "Email": {
+      "type": "email",
+      "unique": true,
+      "required": true
+    }
+  }
+}
