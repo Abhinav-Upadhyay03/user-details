@@ -4,7 +4,8 @@
   "info": {
     "singularName": "user-detail",
     "pluralName": "user-details",
-    "displayName": "userDetail"
+    "displayName": "userDetail",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -23,6 +24,14 @@
       "type": "email",
       "unique": true,
       "required": true
+    },
+    "Profile": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
     }
   }
 }
